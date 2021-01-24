@@ -45,20 +45,20 @@ public class hometask3 {
     //input vice-versa
     public static void main(String[] args) throws IOException {
 
-//        BufferedReader bf =  new BufferedReader(new InputStreamReader(System.in));
-//        String input = bf.readLine();
-//        int inputLength = input.length();
-//
-//        Stack st = new Stack(inputLength);
-//
-//        for (int i = 0; i < inputLength; i++) {
-//            st.push(input.charAt(i));
-//        }
-//        StringBuilder sb = new StringBuilder();
-//        for (int i = 0; i < inputLength; i++) {
-//            sb.append(st.pop());
-//        }
-//        System.out.println(sb);
+        BufferedReader bf =  new BufferedReader(new InputStreamReader(System.in));
+        String input = bf.readLine();
+        int inputLength = input.length();
+
+        Stack st = new Stack(inputLength);
+
+        for (int i = 0; i < inputLength; i++) {
+            st.push(input.charAt(i));
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < inputLength; i++) {
+            sb.append(st.pop());
+        }
+        System.out.println(sb);
 
 //        Deque d = new Deque(4);
 //        d.rightPush(1);
